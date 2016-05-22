@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-SoftTouch.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-SoftTouch -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-SoftTouch/arm-gcc-link.ld -g">
+      <target file="STM32F0-SoftTouch.elf" lastModified="154d6554220">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="154cb4e0f7b"/>
+         <source file="..\obj\SoftTouch.o" lastModified="154d6553e11"/>
+         <source file="..\obj\main.o" lastModified="154d64a9192"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="154cb4fe2b7"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="154cb4e152d"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="154cb4e18f5"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="154cb4e1ad2"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="154cb4e1c48"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="154cb4e1dae"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="154cb4e1efe"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.9.3 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-SoftTouch\cmsis_core -I..\..\..\workspace\STM32F0-SoftTouch\stm32_lib\inc -I..\..\..\workspace\STM32F0-SoftTouch -I..\..\..\workspace\STM32F0-SoftTouch\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F0-SoftTouch\stm32_lib -I..\..\..">
+      <target file="stm32f0xx_syscfg.o" lastModified="154cb4e1dae">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="154ca12062d"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="154cb4e18f5">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="154c96a6bee"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="154cb4e0f7b">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="154c96a6c04"/>
+      </target>
+      <target file="SoftTouch.o" lastModified="154d6553e11">
+         <source file="..\..\..\SoftTouch.c" lastModified="154d6553584"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="154cb4e1efe">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="154ca109276"/>
+      </target>
+      <target file="main.o" lastModified="154d64a9192">
+         <source file="..\..\..\main.c" lastModified="154d64a82f3"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="154cb4e1ad2">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="154c96a7524"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="154cb4fe2b7">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="154cb4fda6d"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="154cb4e1c48">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="154ca10ae2c"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="154cb4e152d">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="154c96a6c24"/>
+      </target>
+   </processor>
+</history>
